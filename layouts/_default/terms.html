@@ -22,7 +22,7 @@
             </svg>
                 <h2 class="tags-item-label">{{ $name }}</h2>
                 {{ range .Pages }}
-                <a class="tags-post" href="{{ .Permalink }}">
+                <a class="tags-post" href="{{ .RelPermalink }}">
                     <div>
                         <span class="tags-post-title">{{ .Title }}</span>
                         <div class="tags-post-line"></div>
